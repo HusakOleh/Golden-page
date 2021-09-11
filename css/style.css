@@ -1,0 +1,74 @@
+.header-wrap {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(180deg, #2f2e32, #423f3f);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    max-width: 1400px;
+    height: 700px;
+    background-image: url("/img/homebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.header-top {
+    /*border: 1px solid #fff;*/
+    margin: 39px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 970px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    /*border: 1px solid #fff;*/
+    font: 26px "Wisdom Script";
+    color: #fed136;
+    padding-left: 19px;
+}
+
+.header-top ul {
+    /*border: 1px solid #fff;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+
+.header-top ul li a{
+    /*border: 1px solid #fff;*/
+    margin: 0 18px;
+    padding: 5px 0;
+    font: 14px "Arial Narrow";
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+    letter-spacing: 2px;
+    color: #fff;
+    width: 100px;
+}
+
+
+.header-top ul li a:hover {
+    border-bottom: 2px solid #fed136;
+    border-top: 2px solid #fed136;
+}
+
+.header-text {
+    font: 40px "Arial";
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-text75px {
+    font-size: 75px;
+}

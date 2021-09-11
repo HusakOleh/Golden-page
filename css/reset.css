@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 
-a, a: hover {text-decoration: none}
+a, a:hover {text-decoration: none}
 
 /*clearfix*/
 .clearfix:before,
