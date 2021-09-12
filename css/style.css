@@ -13,16 +13,17 @@
     background-image: url("/img/homebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 
 .header-top {
     /*border: 1px solid #fff;*/
-    margin: 39px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 970px;
+    max-width: 980px;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
@@ -32,7 +33,8 @@
     /*border: 1px solid #fff;*/
     font: 26px "Wisdom Script";
     color: #fed136;
-    padding-left: 19px;
+    padding-left: 28px;
+    padding-top: 9px;
 }
 
 .header-top ul {
@@ -43,10 +45,17 @@
     margin-top: 14px;
 }
 
+.header-top ul li {
+    margin: 8px 20px;
+    justify-content: center;
+}
+
+
+
 
 .header-top ul li a{
     /*border: 1px solid #fff;*/
-    margin: 0 18px;
+    /*margin: 5px 0;*/
     padding: 5px 0;
     font: 14px "Arial Narrow";
     font-weight: 500;
@@ -54,6 +63,7 @@
     letter-spacing: 2px;
     color: #fff;
     width: 100px;
+    transition: 0.1s;
 }
 
 
@@ -65,10 +75,30 @@
 .header-text {
     font: 40px "Arial";
     color: #fff;
-    margin: 0 auto;
+    margin: 196px auto 29px;
     width: 100%;
+    text-align: center;
 }
 
-.header-text75px {
+.header-text-75px {
     font-size: 75px;
+    margin: 0;
+}
+
+.btn-link {
+    display: block;
+    width: 240px;
+    height: 64px;
+    margin: 43px auto;
+    padding: 20px;
+    text-align: center;
+    background: #fed136;
+    border-radius: 5px;
+    color: #fff;
+    font: 24px "Arial";
+    transition: 0.5s;
+}
+
+.btn-link:hover {
+    box-shadow: 0px 0px 20px 0px rgba(254, 209, 54, 0.7);
 }
