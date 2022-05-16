@@ -11,7 +11,7 @@
     max-width: 1400px;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 110px 230px 100px 230px;
+    padding: 110px 230px 54px 230px;
     margin: 0 auto;
     text-align: center;
 }
@@ -21,7 +21,6 @@
     background-image: url("/img/homebg.jpg");
     padding-top: 30px;
 }
-
 
 
 .content-space-between {
@@ -56,7 +55,7 @@
 }
 
 
-.content-space-between__header-a{
+.content-space-between__header-a {
     padding: 5px 0;
     font: 14px "Arial Narrow";
     font-weight: 500;
@@ -120,8 +119,8 @@
 
 .content-space-between__column {
     width: 100%;
-    padding-top: 95px;
     max-width: 280px;
+    margin-bottom: 50px;
 }
 
 .content-space-between__column h2 {
@@ -137,17 +136,53 @@
 
 .content-space-between__column_basket {
     background: url("/img/Icon-Basket.png") center top no-repeat;
+    padding-top: 95px;
 }
 
 .content-space-between__column_laptop {
     background: url("/img/Icon-Laptop.png") center top no-repeat;
+    padding-top: 95px;
 }
 
 .content-space-between__column_locked {
     background: url("/img/Icon-Locked.png") center top no-repeat;
+    padding-top: 95px;
 }
 
 .wrap_portfolio {
     /*background: #f7f7f7;*/
     background: #9f9f9f;
+    padding-bottom: 24px;
+}
+
+.content-space-between__column_portfolio {
+    background-size: contain;
+    background-color: white;
+    padding-top: 320px;
+    max-width: 280px;
+    height: 390px;
+}
+
+.content-space-between__column_portfolio1 {
+    background: url("/img/Portfolio1.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio2 {
+    background: url("/img/Portfolio2.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio3 {
+    background: url("/img/Portfolio3.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio4 {
+    background: url("/img/Portfolio4.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio5 {
+    background: url("/img/Portfolio5.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio6 {
+    background: url("/img/Portfolio6.png") center top no-repeat;
 }
