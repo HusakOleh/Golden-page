@@ -1,0 +1,65 @@
+.wrap_header {
+    background: linear-gradient(180deg, #2f2e32, #423f3f);
+}
+
+.content-space-between__header-li:last-child {
+    margin-right: 0;
+}
+
+.header-content_75px {
+    font-size: 75px;
+    margin: 0;
+}
+
+.content-space-between__column_basket {
+    background: url("../img/Icon-Basket.png") center top no-repeat;
+    padding-top: 95px;
+}
+
+.content-space-between__column_laptop {
+    background: url("../img/Icon-Laptop.png") center top no-repeat;
+    padding-top: 95px;
+}
+
+.content-space-between__column_locked {
+    background: url("../img/Icon-Locked.png") center top no-repeat;
+    padding-top: 95px;
+}
+
+.wrap_portfolio {
+    /*background: #f7f7f7;*/
+    background: #9f9f9f;
+    padding-bottom: 24px;
+}
+
+.content-space-between__column_portfolio {
+    background-size: contain;
+    background-color: white;
+    padding-top: 320px;
+    max-width: 280px;
+    height: 390px;
+}
+
+.content-space-between__column_portfolio1 {
+    background: url("../img/Portfolio1.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio2 {
+    background: url("../img/Portfolio2.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio3 {
+    background: url("../img/Portfolio3.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio4 {
+    background: url("../img/Portfolio4.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio5 {
+    background: url("../img/Portfolio5.png") center top no-repeat;
+}
+
+.content-space-between__column_portfolio6 {
+    background: url("../img/Portfolio6.png") center top no-repeat;
+}
