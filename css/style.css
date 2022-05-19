@@ -127,7 +127,6 @@
 }
 
 .about-us-row__text {
-    text-align: right;
     width: 320px;
 }
 
@@ -144,6 +143,8 @@
     font: 16px "Times New Roman";
     line-height: 1.6;
 
+
+    padding-bottom: 60px;
 }
 
 .about-us-row__img {
@@ -152,21 +153,16 @@
     border-radius: 50%;
     border: 8px solid #f1f1f1;
     margin: 0 40px;
-    background: url("../img/AboutUs1.png") center/contain;
+
 }
 
 .vertical-line {
     background: #f1f1f1;
-    height: 90px;
+    min-height: 90px;
+    height: 100%;
     width: 2px;
     margin: 0 auto;
 }
-
-
-
-
-
-
 
 
 
