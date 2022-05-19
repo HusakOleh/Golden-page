@@ -136,15 +136,14 @@
 
 .about-us-row__text h2 {
     font: 700 18px "Arial";
-    padding-bottom: 15px;
+    /*padding-bottom: 20px;*/
+    line-height: 1.5;
 }
 
 .about-us-row__text p {
     font: 16px "Times New Roman";
     line-height: 1.6;
-
-
-    padding-bottom: 60px;
+    padding: 5px 0 60px;
 }
 
 .about-us-row__img {

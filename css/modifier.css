@@ -68,7 +68,7 @@
     text-align: right;
 }
 
-.about-us-row__text_right {
+.about-us-row__text_left {
     text-align: left;
 }
 
@@ -86,4 +86,14 @@
 
 .about-us-row__img_4 {
     background: url("../img/AboutUs4.png") center/contain;
+}
+
+.about-us-row__img_yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fed136;
+    color: #fff;
+    font: 20px "Arial";
+    text-transform: uppercase;
 }
