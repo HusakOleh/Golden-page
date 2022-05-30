@@ -123,7 +123,7 @@
 .about-us-row {
     display: flex;
     justify-content: center;
-    /*padding-bottom: 50px;*/
+    padding-bottom: 8px;
 }
 
 .about-us-row__text {

@@ -26,7 +26,7 @@
     padding-top: 95px;
 }
 
-.wrap_portfolio {
+.wrap_dark {
     /*background: #f7f7f7;*/
     background: #9f9f9f;
     padding-bottom: 24px;
@@ -96,4 +96,8 @@
     color: #fff;
     font: 20px "Arial";
     text-transform: uppercase;
+}
+
+.wrap__about-us-row {
+    padding-bottom: 50px;
 }
