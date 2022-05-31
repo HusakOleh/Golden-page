@@ -101,3 +101,37 @@
 .wrap__about-us-row {
     padding-bottom: 50px;
 }
+
+.content-space-between__column_team {
+    margin-bottom: 34px;
+}
+
+.content-space-between__column_team h2 {
+    padding: 22px 0 2px;
+    font-size: 15px;
+}
+
+.content-space-between__column_team p {
+    font-size: 15px;
+}
+
+.amazingTeam__circle_1 {
+    background: url("../img/Team1.png") center/contain;
+}
+
+.amazingTeam__circle_2 {
+    background: url("../img/Team2.png") center/contain;
+}
+
+.amazingTeam__circle_3 {
+    background: url("../img/Team3.png") center/contain;
+}
+
+.content-space-between_our-team {
+    max-width: 800px;
+}
+
+.content-space-between_amazingTeam-bottom {
+    width: 140px;
+}
+
