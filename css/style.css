@@ -200,6 +200,13 @@
     padding-bottom: 38px;
 }
 
+.partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 40px 0;
+}
 
 
 

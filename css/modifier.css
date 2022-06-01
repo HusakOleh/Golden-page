@@ -127,7 +127,7 @@
     background: url("../img/Team3.png") center/contain;
 }
 
-.content-space-between_our-team {
+.content-space-between_800px {
     max-width: 800px;
 }
 
@@ -135,3 +135,11 @@
     width: 140px;
 }
 
+.wrap__contain_partner {
+    padding: 42px  0;
+}
+
+.t {
+    background: #000;
+    height: 100px;
+}
