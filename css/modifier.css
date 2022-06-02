@@ -2,6 +2,13 @@
     background: linear-gradient(180deg, #2f2e32, #423f3f);
 }
 
+
+.wrap__contain_header {
+    height: 700px;
+    background-image: url("../img/homebg.jpg");
+    padding-top: 30px;
+}
+
 .content-space-between__header-li:last-child {
     margin-right: 0;
 }
@@ -136,8 +143,40 @@
 }
 
 .wrap__contain_partner {
-    padding: 42px  0;
+    padding: 42px 0;
 }
+
+.wrap_form {
+    background: #222222;
+}
+
+.wrap__contain_form {
+    height: 670px;
+    background-image: url("../img/Map.png");
+}
+
+.wrap__title_form {
+    margin-bottom: 48px;
+}
+
+.wrap__contain_form h2 {
+    color: white;
+}
+
+.wrap__contain_form p {
+    color: #505050;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+
+
+
+
 
 .t {
     background: #000;
