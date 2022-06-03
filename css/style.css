@@ -183,17 +183,25 @@
     border-radius: 50%;
     border: 3px solid #000;
     margin: 10px auto;
-    padding: 3px;
 }
 
 .amazingTeam__bottom:hover {
     border: 3px solid rgba(254, 209, 54, 0.7);
     background: rgba(254, 209, 54, 0.52);
     box-shadow: 0 0 20px 0 rgba(254, 209, 54, 0.7);
+    transition: 0.3s;
 }
 
-.amazingTeam__bottom img {
-    height: 80%;
+.amazingTeam__bottom a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.amazingTeam__bottom a img {
+    height: 60%;
 }
 
 .our-team__p-bottom {
@@ -212,7 +220,6 @@
 }
 
 .wrap__contain_form form {
-    /*width: 100%;*/
     display: flex;
     justify-content: space-between;
 }
@@ -235,7 +242,8 @@
 
 .wrap__contain_form input, textarea {
     box-sizing: border-box;
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: 50px;
     padding: 20px;
     margin-top: 25px;
@@ -255,12 +263,27 @@ input[type = "text"]::placeholder, textarea::placeholder {
     text-transform: uppercase;
 }
 
+footer {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 90px;
+    display: flex;
+    justify-content: start;
+}
 
+footer p, .sub-footer {
+    display: flex;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
-
-
-
-
+.sub-footer div{
+    margin: 5px;
+}
 
 
 
