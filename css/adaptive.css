@@ -1,0 +1,101 @@
+
+#drop {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.drop1,
+.drop2,
+.drop3 {
+    background-color: #fed136;
+    margin: 6px;
+    height: 2px;
+    width: 100%;
+    display: block;
+    box-shadow: 0 0 20px 0 rgba(254, 209, 54, 0.7);
+}
+
+
+@media (max-width: 1200px) {
+    .wrap__contain {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content-space-between,
+    .form__form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrap__contain_form {
+        height: 100%;
+    }
+
+    .left-block,
+    .right-block {
+        width: 100%;
+        align-items: center;
+    }
+
+
+    /*input, textarea {*/
+    /*    width: 80%;*/
+    /*    max-width: none;*/
+    /*}*/
+
+
+    .wrap__contain_header .content-space-between,
+    .content-space-between_amazingTeam-bottom,
+    .wrap__contain_partner .content-space-between {
+        flex-direction: row;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    #drop {
+        display: block;
+    }
+
+    .wrap__contain_header {
+        height: 100%;
+        background-image: none;
+    }
+
+    .content-space-between {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 0;
+    }
+
+    .content-space-between__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .content-space-between__ul li a {
+        font-size: 24px;
+    }
+
+
+}
