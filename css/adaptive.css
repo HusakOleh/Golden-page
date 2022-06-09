@@ -101,11 +101,11 @@
 
     .wrap__contain_header {
         height: 100%;
-        background-image: none;
+        /*background-image: none;*/
     }
 
     .wrap__contain_header .content-space-between {
-        background: linear-gradient(180deg, #423f3f, #2f2e32);
+        background: rgba(47, 46, 50, 0.84);
         height: 50px;
         width: 100%;
         position: fixed;
@@ -138,7 +138,7 @@
         position: fixed;
         left: 0;
         top: -100%;
-        background: linear-gradient(180deg, #423f3f, #2f2e32);
+        background: #2f2e32;
         width: 100%;
         transition: 0.6s;
     }
@@ -187,6 +187,14 @@
 
     .about-us-row__text_right {
         order: 1;
+    }
+
+    .our-team__p-bottom {
+        padding: 0 30px 0;
+    }
+
+    .partner {
+        padding: 40px 20px;
     }
 
     footer {
